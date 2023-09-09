@@ -1,0 +1,145 @@
+/* About.css */
+
+/* Styles for the main container */
+.About {
+    font-family: poppins SemiBold;
+    /* text-align: center; */
+    padding: 20px;
+  }
+  
+  /* Style for the title */
+  .About-text {
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: poppins SemiBold cursive;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the overall container */
+  .About-Container {
+    display: flex;
+    align-items: center; /* Vertically align items in the center */
+  }
+  
+  /* Style for the profile picture container */
+  .About-pic-Container {
+    flex: 1.5; /* Take up one-third of the container width */
+    padding: 20px;
+    height: 140%;
+  }
+  
+  /* Style for the profile picture */
+  .About-pic-Container img {
+    width: 130%;
+    max-height: 500px;
+    max-width: 300px;
+    border-radius: 50%;
+    transform: scale(1.2);
+
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .About-pic-Container img:hover {
+    transform: scale(1.3);
+    transition: 1s ease-out;
+    cursor: pointer;
+
+}
+  /* Style for the text container */
+  .text-Container {
+    flex: 1.5; /* Take up two-thirds of the container width */
+    padding: 25px;
+    line-height: 1.8;
+    font-family: poppins  cursive;
+  }
+  
+  /* Style for the introduction text */
+  .text-Container p {
+    font-size: 22px;
+    margin: 20px;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+     /* Style for the profile picture container */
+  .About-pic-Container {
+    flex: 0; /* Take up one-third of the container width */
+    padding: 20px;
+    height: 140%;
+  }
+  
+    /* Stack elements vertically on smaller screens */
+    .About-Container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Adjust the order for smaller screens, text comes before the image */
+    .About-pic-Container {
+      order: 1; /* Set the order to 2, so it comes after the text */
+    }
+  
+    .text-Container {
+      order: 2; /* Set the order to 1, so it comes before the image */
+    }
+  
+    /* Adjust the size of the image on small4er screens */
+    .About-pic-Container img {
+      width: 100%; /* Resize the image to fit the screen width */
+      max-height: none; /* Remove max-height */
+      max-width: none; /* Remove max-width */
+    }
+    .text-Container {
+        flex: 0.5; /* Take up two-thirds of the container width */
+        line-height: 1.7;
+        justify-content: center;
+        font-family: poppins  cursive;
+        word-wrap: break-word;
+        width: 400px;
+
+        height: 100px;
+      }
+      
+      /* Style for the introduction text */
+      .text-Container p {
+        font-size: 16px;
+        margin: 20px;
+        margin-bottom: 15px;
+        text-indent: 0%;
+      }
+
+      .About-pic-Container img {
+        width: 130%;
+        max-height: 500px;
+        max-width: 200px;
+        border-radius: 50%;
+        transform: scale(1);
+    
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+      }
+      
+      .About-pic-Container img:hover {
+        transform: scale(1.1);
+        transition: 1s ease-out;
+        cursor: pointer;
+    
+    }
+  }
+  @media (max-width: 300px) {
+    .text-Container {
+        flex: 0; /* Take up two-thirds of the container width */
+        line-height: 1.4;
+        justify-content: center;
+        font-family: poppins  cursive;
+        width: 300px;
+      }
+      .About-pic-Container img {
+        width: 130%;
+        max-height: 500px;
+        max-width: 100px;
+        border-radius: 50%;
+        transform: scale(1);
+    
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+      }
+  }

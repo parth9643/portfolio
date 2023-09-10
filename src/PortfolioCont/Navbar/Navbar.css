@@ -1,6 +1,4 @@
-body{
-    /* color: white; */
-}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,7 +38,7 @@ body{
 
 .navbar-item:hover {
 
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 .navbar-button {
@@ -56,7 +54,7 @@ body{
 }
 
 .navbar-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 @media (max-width: 985px) {
     .navbar-left {

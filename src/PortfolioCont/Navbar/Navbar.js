@@ -12,7 +12,7 @@ const Navbar = () => {
 
     //scrolling kai liye use kara hai
     const scrollToInfo = () => {
-        const infoSection = document.querySelector('.InfoContainer');
+        const infoSection = document.querySelector('.profile-container');
         if (infoSection) {
             infoSection.scrollIntoView({ behavior: 'smooth' });
         }
@@ -26,7 +26,7 @@ const Navbar = () => {
     };
 
     const scrollToService = () => {
-        const serviceSection = document.querySelector('.Service');
+        const serviceSection = document.querySelector('.skills');
         if (serviceSection) {
             serviceSection.scrollIntoView({ behavior: 'smooth' });
         }
@@ -58,7 +58,7 @@ const Navbar = () => {
             <div className={`navbar-right ${isMenuOpen ? 'active' : ''}`}>
                 <div className="navbar-item" onClick={scrollToInfo}>Info</div>
                 <div className="navbar-item" onClick={scrollToAbout}>About</div>
-                <div className="navbar-item" onClick={scrollToService}>Service</div>
+                <div className="navbar-item" onClick={scrollToService}>Skills</div>
                 <div className="navbar-item" onClick={scrollToGifts}>Gifts</div>
 
             </div>

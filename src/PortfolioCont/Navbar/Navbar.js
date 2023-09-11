@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className="navbar-item" onClick={scrollToInfo}>Info</div>
                 <div className="navbar-item" onClick={scrollToAbout}>About</div>
                 <div className="navbar-item" onClick={scrollToService}>Skills</div>
-                <div className="navbar-item" onClick={scrollToGifts}>Gifts</div>
+                <div className="navbar-item" onClick={scrollToGifts}>Projects</div>
 
             </div>
         </header>

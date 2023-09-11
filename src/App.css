@@ -3,7 +3,9 @@
   background-image: url('./PortfolioCont/assets/fonts/bg-col.jpg');
   opacity: 0.9;
  color: white;
-  max-height: 500%;
+ height: 100%;
+ 
+
   max-width: 200%;
 
 }

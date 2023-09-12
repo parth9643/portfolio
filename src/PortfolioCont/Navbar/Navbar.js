@@ -40,7 +40,7 @@ const Navbar = () => {
     };
 
     const scrollToContact = () => {
-        const ContactSection = document.querySelector('.conatct');
+        const ContactSection = document.querySelector('.conatct-section');
         if (ContactSection) {
             ContactSection.scrollIntoView({ behavior: 'smooth' });
         }

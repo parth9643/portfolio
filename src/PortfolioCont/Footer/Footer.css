@@ -1,9 +1,12 @@
+body{
+    background-color: rgb(4, 41, 41);
+
+}
 .footer {
     font-family: poppins SemiBold cursive;
-
     height: 60px;
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     background-color: rgb(4, 41, 41);
@@ -16,6 +19,17 @@
     font-size: 25px;
 }
 
-.footer p span {
-    font-size: 24px;
+.colz .colz-icons i {
+    color: white;
+    padding: 7px;
+    font-size: 2rem;
+    margin: 4px;
+    /* background-color: rgb(4, 41, 41); */
+
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.colz .colz-icons i:hover {
+    transform: scale(1.5);
 }

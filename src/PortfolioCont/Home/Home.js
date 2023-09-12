@@ -3,6 +3,13 @@ import Typical from 'react-typical'
 import './Home.css'
 
 const Home = () => {
+    const scrollToInfo = () => {
+        const infoSection = document.querySelector('.contact-section');
+        if (infoSection) {
+            infoSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <div className='profile-container'>
             <div className='profile-parent'>
@@ -18,6 +25,10 @@ const Home = () => {
                             <a href='https://leetcode.com/PS_9643/'>
                                 <i className='fa fa-link '></i>
                             </a>
+                            <a href='mailto:sparth9643@gmail.com'>
+                                <i className='fa fa-envelope '></i>
+                            </a>
+                         
                             <a href='https://www.instagram.com/parth2365/'>
                                 <i className='fa fa-instagram '></i>
                             </a>
@@ -25,7 +36,7 @@ const Home = () => {
                     </div>
                     <div className='profile-details-name'>
                         <span className='primary-text'>
-                           
+
                             Hello, I'm <span className='highlight-text'>Parth Shukla👋
                             </span>
                         </span>
@@ -50,7 +61,7 @@ const Home = () => {
                         </span>
                     </div>
                     <div className='profile-options'>
-                        <button className='btn primary-btn'>
+                        <button className='btn primary-btn' onClick={scrollToInfo}>
                             {"  "}
                             Hire Me{" "}
                         </button>
@@ -60,11 +71,11 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='profile-pic'>
-                <div className='profile-pic-bag'>
+                    <div className='profile-pic-bag'>
+                    </div>
                 </div>
             </div>
-            </div>
-            
+
 
         </div>
     )

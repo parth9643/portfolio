@@ -1,0 +1,21 @@
+.footer {
+    font-family: poppins SemiBold cursive;
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 41, 41);
+    color: aliceblue;
+}
+
+
+.footer p {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.footer p span {
+    font-size: 24px;
+}

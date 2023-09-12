@@ -33,9 +33,16 @@ const Navbar = () => {
     };
 
     const scrollToGifts = () => {
-        const GiftSection = document.querySelector('.ai-Form');
+        const GiftSection = document.querySelector('.project');
         if (GiftSection) {
             GiftSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const scrollToContact = () => {
+        const ContactSection = document.querySelector('.conatct');
+        if (ContactSection) {
+            ContactSection.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
@@ -60,6 +67,8 @@ const Navbar = () => {
                 <div className="navbar-item" onClick={scrollToAbout}>About</div>
                 <div className="navbar-item" onClick={scrollToService}>Skills</div>
                 <div className="navbar-item" onClick={scrollToGifts}>Projects</div>
+                <div className="navbar-item" onClick={scrollToContact}>Contact Me</div>
+
 
             </div>
         </header>

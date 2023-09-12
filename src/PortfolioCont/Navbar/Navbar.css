@@ -1,19 +1,33 @@
-
+.content {
+    padding-top: 60px; /* Adjust this value to match the height of your navbar */
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    /* color: black; */
+
     box-shadow: rgba(99, 110, 139, 0.3) 0px 0px 30px !important;
     max-width: 100%;
+
 }
 
 .navbar-left {
     font-family: poppins SemiBold cursive;
     margin-left: 200px;
-
 }
+
+.navbar-left h1{
+    cursor: pointer;
+}
+
+.navbar-left:hover {
+
+    transform: scale(1.5);
+}
+
+
+
 
 .menu-button {
     display: none;
@@ -127,7 +141,7 @@
     .navbar.menu-open .navbar-right {
         transform: translateY(0);
         display: flex;
-        height: 280px;
+        height: 300px;
 
     }
 

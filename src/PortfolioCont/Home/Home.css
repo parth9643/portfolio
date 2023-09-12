@@ -57,7 +57,7 @@
     /* color: rgb(67, 71, 68); */
 }
 
-profile-options .primary-btn {
+.profile-options .primary-btn {
     margin: 0 0 0 28px;
     font-size: 16px;
     /* font-size: 24px; */
@@ -73,7 +73,7 @@ profile-options .primary-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 1px 0px 0px rgba(173, 10, 10, 0.2);
+    box-shadow: 0 1px 0px 0px rgba(171, 241, 231, 0.2);
     height: 380px;
     border-radius: 50%;
     width: 380px;

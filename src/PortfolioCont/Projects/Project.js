@@ -5,6 +5,7 @@ import Project2 from '../projectsImg/Project2.png';
 import Project3 from '../projectsImg/Project3.png';
 import Project4 from '../projectsImg/Project4.png';
 
+
 const Project = () => {
     return (
         <div>

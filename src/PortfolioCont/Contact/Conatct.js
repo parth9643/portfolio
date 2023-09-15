@@ -1,6 +1,5 @@
 import React from 'react'
 import './Contact.css'
-import { useState, useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 

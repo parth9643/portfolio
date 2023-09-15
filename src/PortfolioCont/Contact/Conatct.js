@@ -1,8 +1,14 @@
 import React from 'react'
 import './Contact.css'
+import { useState, useEffect } from 'react';
+import { CSSTransition } from 'react-transition-group';
+
 
 const Contact = () => {
+
     return (
+        <CSSTransition in={true} appear={true} timeout={300} classNames="page">
+        <div className="page-content">
         <section className='contact-section'>
             <h1 className='section-title'>Contact Me</h1>
 
@@ -37,27 +43,29 @@ const Contact = () => {
                 <div className='contact-content'>
                     <h3 className='contact-title'>Message Me</h3>
 
-                    <form action="" className='contact-form'>
+                    <form action="" className='contact-form' >
                         <div className='contact-form-grid'>
                             <label className='contact-form-tag' htmlFor="name">Name</label>
-                            <input className='contact-form-input' type="text" name='name' placeholder='Write Your Name' />
+                            <input className='contact-form-input' type="text" name='name' placeholder='Write Your Name' required />
                         </div>
 
                         <div className='contact-form-grid'>
                             <label className='contact-form-tag' htmlFor="email">Email</label>
-                            <input className='contact-form-input' type="email" name='email' placeholder='Write Your Email' />
+                            <input className='contact-form-input' type="email" name='email' placeholder='Write Your Email' required/>
                         </div>
 
                         <div className='contact-form-grid'>
                             <label className='contact-form-tag' htmlFor="message">Message</label>
-                            <textarea className='contact-form-input' name="message" cols="30" rows="10" placeholder='Write Your Message'></textarea>
+                            <textarea className='contact-form-input' name="message" cols="30" rows="10" placeholder='Write Your Message' required></textarea>
                         </div>
 
-                        <button className='contact-button contact-form-button primary-btn'>Send Message</button>
+                        <button className='contact-button contact-form-button primary-btn' >Send Message</button>
                     </form>
                 </div>
             </div>
         </section>
+        </div>
+        </CSSTransition>
     )
 }
 

@@ -3,6 +3,25 @@
     color: white;
 } */
 
+.page-enter {
+    transform: translateX(-100%);
+  }
+  
+  .page-enter-active {
+    transform: translateX(0);
+    transition: transform 300ms ease-in-out;
+  }
+  
+  .page-exit {
+    transform: translateX(0);
+  }
+  
+  .page-exit-active {
+    transform: translateX(100%);
+    transition: transform 300ms ease-in-out;
+  }
+  
+
 .profile-container {
     display: flex;
     align-items: center;

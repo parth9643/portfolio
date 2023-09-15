@@ -1,5 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical'
+import { CSSTransition } from 'react-transition-group';
 import './Home.css'
 
 const Home = () => {
@@ -11,6 +12,8 @@ const Home = () => {
     };
 
     return (
+        <CSSTransition in={true} appear={true} timeout={300} classNames="page">
+        <div className="page-content">
         <div className='profile-container'>
             <div className='profile-parent'>
                 <div className='profile-details'>
@@ -75,9 +78,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
+    </div>
+</CSSTransition>
     )
 }
 

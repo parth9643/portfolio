@@ -1,4 +1,22 @@
 /* Contact Page Styles */
+.page-enter {
+    transform: translateX(-100%);
+  }
+  
+  .page-enter-active {
+    transform: translateX(0);
+    transition: transform 300ms ease-in-out;
+  }
+  
+  .page-exit {
+    transform: translateX(0);
+  }
+  
+  .page-exit-active {
+    transform: translateX(100%);
+    transition: transform 300ms ease-in-out;
+  }
+  
 .contact-section {
     padding: 3rem 0;
     font-family: poppins SemiBold;
@@ -117,7 +135,8 @@
 .contact-form-input::placeholder {
     /* Corrected placeholder selector */
     /* font-weight: bold; */
-    font-size: 23px;
+    font-size: 23
+    px;
 }
 
 .contact-form-input {

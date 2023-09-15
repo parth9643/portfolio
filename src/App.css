@@ -4,7 +4,7 @@
   opacity: 0.9;
  color: white;
  height: 100%;
- 
+ scroll-behavior: smooth;
 
   max-width: 200%;
 

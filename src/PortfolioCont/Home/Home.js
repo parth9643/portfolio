@@ -68,7 +68,7 @@ const Home = () => {
                             {"  "}
                             Hire Me{" "}
                         </button>
-                        <a href='parth shukla resume(7).pdf' download='parth shukla resume(7).pdf'>
+                        <a href='parth shukla resume(7) - Copy.pdf' download='parth shukla resume(7) - Copy.pdf'>
                             <button className='btn highlighted-btn'>Download Resume</button>
                         </a>
                     </div>

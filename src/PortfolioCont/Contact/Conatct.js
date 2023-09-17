@@ -19,7 +19,7 @@ const Contact = () => {
                         <div className='contact-card'>
                             <i className="fa fa-envelope contact-card-icon"></i>
                             <h3 className='contact-card-title'>Email</h3>
-                            <span className='contact-card-data'>user@gmail.com</span>
+                            <span className='contact-card-data'>sparth9643@gmail.com</span>
                             <a href='mailto:sparth9643@gmail.com' className='contact-button primary-btn'>Write Me</a>
                         </div>
 

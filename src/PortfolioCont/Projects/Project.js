@@ -15,7 +15,8 @@ const Project = () => {
                 </div>
                 <div className='project-container'>
                     <div className='project-box color-container'>
-                        <div className='project-img'>
+                    <div className='project-img'
+                    onClick={() => window.open('https://6478f8fd2ab9730ed0ad6019--chic-figolla-69e3f5.netlify.app/', '_blank')}>
                             <img src={Project1} alt='project-img' />
                         </div>
                         <div className='project-details'>
@@ -33,7 +34,8 @@ const Project = () => {
                         </div>
                     </div>
                     <div className='project-box'>
-                        <div className='project-img'>
+                        <div className='project-img'
+                        onClick={() => window.open('https://aigiftshop.vercel.app/', '_blank')}>
                             <img src={Project2} alt='project-img' />
                         </div>
                         <div className='project-details'>
@@ -53,7 +55,8 @@ const Project = () => {
                         </div>
                     </div>
                     <div className='project-box'>
-                        <div className='project-img'>
+                        <div className='project-img'
+                        onClick={() => window.open('https://parthecommerce.netlify.app/', '_blank')}>
                             <img src={Project3} alt='project-img' />
                         </div>
                         <div className='project-details'>
@@ -74,7 +77,8 @@ const Project = () => {
                     </div>
                 
                     <div className='project-box'>
-                        <div className='project-img'>
+                        <div className='project-img'
+                        onClick={() => window.open('https://darling-dasik-0b0c7d.netlify.app/', '_blank')}>
                             <img src={Project4} alt='project-img' />
                         </div>
                         <div className='project-details'>

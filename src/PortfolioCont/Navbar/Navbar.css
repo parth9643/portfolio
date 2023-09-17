@@ -70,6 +70,17 @@
 .navbar-button:hover {
     transform: scale(1.2);
 }
+@media ((min-width:985px) and (max-width: 1160px)) {
+    .navbar-left {
+        font-family: poppins SemiBold cursive;
+        margin-left: -7px;
+    }
+    .navbar-right{
+        margin-right: 0px;
+    }
+        
+    
+}
 @media (max-width: 985px) {
     .navbar-left {
         font-family: poppins SemiBold cursive;
@@ -82,7 +93,7 @@
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .navbar {
         height: 70px;
         flex-direction: column;
